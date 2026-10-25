@@ -15,25 +15,62 @@
 
 ### 🧭 About Me
 
-I'm an IT undergrad who fell into code and never left. Somewhere between shipping side-projects and losing sleep over hackathons, I got hooked on the overlap of **software engineering, data science, and ML** — and the itch to eventually build something of my own (entrepreneurship is very much on the radar). I learn best by breaking things, rebuilding them, and shipping the result.
+IT undergrad at **IIEST Shibpur** who fell into code and never left. I like the overlap of **software engineering, data science and ML**, and I learn best by building something, breaking it, and rebuilding it better. Hackathons, case competitions and side projects are where most of my learning happens. Entrepreneurship is very much on the radar too.
 
-- 🔭 Currently building things at the intersection of **AI/ML and real-world problems**
-- 🌱 Deep-diving into **reinforcement learning** and applied ML systems
-- ⚡ Big fan of turning "wouldn't it be cool if..." into a working repo
+- 🔭 Building at the intersection of **AI/ML and real-world problems**
+- 🌱 Exploring **reinforcement learning, federated learning and semantic search**
+- ⚡ Turning "wouldn't it be cool if..." into a working repo
 - 🎯 Long-term: startups, leadership, and staying permanently curious
 
 ---
 
-### 🚀 What I'm Building
+### 🚀 What I've Built
 
-| Project | What it does | Stack |
-|---|---|---|
-| **[fitrank-ai](https://github.com/Soumadipta-Konar/fitrank-ai)** | AI-powered candidate ranking system for semantic hiring & recruiter-style shortlisting | `Python` |
-| **[goaloracle-2026](https://github.com/Soumadipta-Konar/goaloracle-2026)** | A FIFA World Cup 2026 intelligence engine — 48-team simulation, Bivariate Poisson scorelines, team ratings, what-if analysis & interactive dashboards | `Jupyter` |
-| **[flappy-bird-rl](https://github.com/Soumadipta-Konar/flappy-bird-rl)** | A Deep Q-Network agent that learns to play Flappy Bird — experience replay, epsilon-greedy exploration, target network | `Python` `PyTorch` |
-| **[ReelSense](https://github.com/Soumadipta-Konar/ReelSense)** | Exploratory ML/analytics project — actively evolving | `Jupyter` |
+| Project | What it does | Stack | Links |
+|---|---|---|---|
+| **fitrank-ai** | Offline, CPU-only candidate ranking. Combines TF-IDF, MiniLM embeddings, FAISS search and consistency checks to turn **100,000+ profiles** into a grounded top-100 shortlist in about 1 min 45 sec. | `Python` `FAISS` `sentence-transformers` `scikit-learn` | [Repo](https://github.com/Soumadipta-Konar/fitrank-ai) · [Live demo](https://fit-rank-ai.streamlit.app/) |
+| **fl-hospital-consortium** | Cross-silo federated learning testbed on real hospital data (FLamby Fed-Heart-Disease, 4 sites). FedAvg and FedProx, leave-one-site-out tests, differential privacy, Byzantine defenses (Krum, median, trimmed mean), Flower + Docker, 10 random seeds. | `PyTorch` `Flower` `Docker` | [Repo](https://github.com/Soumadipta-Konar/fl-hospital-consortium) · [Live dashboard](https://soumadipta-konar.github.io/fl-hospital-consortium/) |
+| **goaloracle-2026** | FIFA World Cup 2026 intelligence engine: 48-team tournament simulation, Bivariate Poisson scorelines, team ratings, what-if analysis and interactive dashboards. | `Python` `Jupyter` | [Repo](https://github.com/Soumadipta-Konar/goaloracle-2026) |
+| **flappy-bird-rl** | A Deep Q-Network agent that learns to play Flappy Bird, with experience replay, epsilon-greedy exploration and a target network. | `Python` `PyTorch` `Gymnasium` | [Repo](https://github.com/Soumadipta-Konar/flappy-bird-rl) |
+| **ReelSense** | Hybrid movie recommender that blends collaborative filtering with TF-IDF content similarity, tuned with a blend weight and evaluated chronologically to avoid data leakage. | `Python` `scikit-learn` `pandas` | [Repo](https://github.com/Soumadipta-Konar/ReelSense) |
 
-> Each one started as "let me just try this" — that's usually how the good ones begin.
+> Each one started as "let me just try this". That's usually how the good ones begin.
+
+---
+
+### 🔭 Exploring Right Now
+
+- 🎮 **Reinforcement learning:** DQN so far, curious about policy-gradient methods next
+- 🏥 **Federated learning and privacy-preserving ML:** what happens when data can't leave its source
+- 🔎 **Semantic search and ranking:** getting good results on small hardware
+- ⚽ **Sports analytics and probabilistic modelling:** predicting uncertain outcomes honestly
+
+---
+
+### 🤝 Open to Collaborate
+
+- 🏁 **Hackathon teammates:** ML, data or product ideas, and I'm happy to jump in at any stage
+- 🧪 **Small research-style experiments:** reproducible benchmarks, ablations, "does this actually work?" projects
+- 🌍 **Open-source ML work:** contributions to tools, datasets or beginner-friendly issues
+- 💼 **Remote internships** in ML, data science or Python development
+
+---
+
+### 💬 Ask Me About
+
+- Building a ranking pipeline that scores 100K+ items on a CPU
+- Setting up a federated learning experiment with Flower and Docker
+- Case competitions, hackathons and Codeforces (Pupil, peak 1202)
+- Starting from zero on RL, one failed Flappy Bird run at a time
+
+---
+
+### 🏆 Highlights
+
+- 🥇 Winner, **CaseX**, Scintillations 2026 (E-Summit, IIEST Shibpur)
+- 🚀 Top 25 out of 1000 teams, **VentureX** national business hackathon, IIT (ISM) Dhanbad
+- 📈 Top 10%, **Summer Analytics 2026**, Consulting & Analytics Club, IIT Guwahati
+- 🛠️ Best First-Year Team Prize, **HackSprint**, Instruo 2025
 
 ---
 
@@ -45,25 +82,28 @@ I'm an IT undergrad who fell into code and never left. Somewhere between shippin
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="36" title="C++" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="36" title="C" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="36" title="JavaScript" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="36" title="SQL / MySQL" />
 </p>
 
-**Data / ML**
+**ML / Data**
 <p>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="36" title="PyTorch" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="36" title="TensorFlow" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" width="36" title="scikit-learn" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="36" title="Pandas" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" width="36" title="OpenCV" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="36" title="NumPy" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" width="36" title="Matplotlib" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/seaborn/seaborn-original.svg" width="36" title="Seaborn" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="36" title="Jupyter" />
 </p>
 
-**Web & Data**
+**Tools**
 <p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="36" title="React" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="36" title="Node.js" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="36" title="MongoDB" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="36" title="MySQL" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="36" title="Docker" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="36" title="Git" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="36" title="GitHub" />
 </p>
+
+Also: `FAISS` · `Sentence Transformers` · `XGBoost` · `Streamlit` · `Plotly` · `Flower (flwr)`
 
 ---
 
@@ -82,6 +122,6 @@ I'm an IT undergrad who fell into code and never left. Somewhere between shippin
 
 ### 🤝 Let's Build Something
 
-If you're tinkering with ML, sports/data analytics, or a scrappy weekend hackathon idea — my repos are public and my DMs are basically an open suggestion box. Always down to trade notes, debug together, or get pulled into a good rabbit hole.
+If you're tinkering with ML, sports/data analytics, federated learning, or a scrappy weekend hackathon idea, my repos are public and my DMs are basically an open suggestion box. Always down to trade notes, debug together, or get pulled into a good rabbit hole.
 
 <p align="center"><i>Star a repo, open an issue, or just say hi 👋</i></p>
